@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary      = "简易的对UIWebView封装在Controller中"
   s.description  = <<-DESC
   继承出来一个SGWebView，将此webView添加到SGWebViewController中，并设置webview的delegate为该Controller
-  将webView的代理方法通过Controller转发出来。该Controller还支持定位navigationBar上的操作按钮。
+  将webView的代理方法通过Controller转发出来。该Controller还支持定位navigationBar上的操作按钮。 
                    DESC
   s.homepage     = "https://git.coding.net/botherbox/SGWebViewController.git"
   s.license      = "Apache"
