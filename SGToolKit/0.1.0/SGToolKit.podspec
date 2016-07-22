@@ -47,7 +47,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = "SGToolKit/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
-  s.public_header_files = "SGToolKit/*.h", "SGToolKit/Foundation/*.h",  "SGToolKit/UIKit/*.h", "SGToolKit/Utility/*.h"
+  s.public_header_files = "SGToolKit/**/*.h"
+  # , "SGToolKit/Foundation/*.h",  "SGToolKit/UIKit/*.h", "SGToolKit/Utility/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
